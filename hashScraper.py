@@ -47,7 +47,7 @@ while True:
         message.set_content(url)
         message['From'] = 'email@gmail.com'
         message['To'] = 'email@gmail.com'
-        message['Subject'] = 'DAR NETWORK FAILURE'
+        message['Subject'] = 'network implosion'
         fromaddress = 'email@gmail.com'
         toaddress = ['email@gmail.com']
         server = smtplib.SMTP('smtp.gmail.com', 587)
